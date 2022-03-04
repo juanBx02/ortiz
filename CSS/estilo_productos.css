@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat';
+  }
+  .container-fluid {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 255, 255);
+  }
+  
+  /*Estilo Header*/
+  li, a, button{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 2%;
+    background: #24252A;
+}
+
+header .logo{
+    cursor: pointer;
+    width: 210px;
+}
+
+header .nav_links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .nav_links li{
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+header .nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+header .nav_links a:hover{
+    color: #0088a9;
+}
+header .nav_links li:hover{
+    color: #0088a9;
+    border-bottom: #0088a9 2px solid;
+}
+header button{
+    padding: 5px 25px;
+    background-color: rgb(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+}
+header button:hover{
+    background-color: rgb(0,136,169,0.5);
+}
+
+header .cta{
+    width: 15%;
+}
+  .card{
+    border: none;
+    outline: none;
+    background: #24252A;
+    color: white;
+    border-radius: 10px;
+    padding-top: 12px;
+    transition: transform .3s;
+    margin-bottom: 10px;
+  }
+
+  .card img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  .card:hover{
+    transform: translateY(-12px);
+    transition: transform .3s;
+    background-color: rgb(0, 0, 0,0.9);
+  }
+
+  .text1{
+    font-size: 18px;
+    font-family: 'montserrat';
+  }
+
+  .info{
+    line-height: 17px;
+    color: white;
+  }
+
+  .star{
+    color:#fbc02d;
+  }
+
+  .cost span{
+    color: #0088a9;
+    font-family: 'montserrat';
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .shoe{
+    background-color: #0088a9;
+    font-family: 'montserrat';
+    border-radius: 7px;
+  }
+
+  footer .row {
+    margin: 0%;
+    padding: 80px 80px;
+    width: 100%;
+    height: 100%;
+    background: #24252A;
+    color: white;
+  }
+  footer .col {
+    margin-bottom: 10px;
+  }
+  footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  footer li {
+    list-style: none;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+  }
+  footer li:hover{
+    color: rgb(79, 170, 206);
+    text-decoration:overline;
+    cursor: pointer;
+  }
+  footer li h4:hover{
+    color: white;
+    cursor: context-menu;
+    text-decoration: none;
+  }
+  footer .copy li:hover{
+    text-decoration: none;
+    color: white;
+    cursor:context-menu;
+  }
+  footer .by{
+    text-decoration: none;
+    color: #0088a9;
+  }
+  footer .by:hover{
+    text-decoration: none;
+  }
+  /*fin footer*/
